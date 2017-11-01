@@ -11,6 +11,8 @@ namespace rafi.Controllers
     {
         public IActionResult Index()
         {
+           Console.WriteLine("degugging test");
+           Console.ReadLine();
             return View();
         }
 
